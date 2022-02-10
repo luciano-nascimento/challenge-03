@@ -11,7 +11,7 @@ class PublisherService
 
     public function publishMessage(string $title){
 
-        Log::debug("Sending new job ${title} to log.");
+        Log::debug("Sending new job ${title} to message broker.");
         
         $connection = new AMQPStreamConnection(
             config('rabbitmq.connection.host'),

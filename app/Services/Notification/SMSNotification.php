@@ -2,7 +2,7 @@
 
 namespace App\Services\Notification;
 
-class SMSNotificationStrategy implements NotificationInterface
+class SMSNotification implements NotificationInterface
 {
 
     public function send(string $title)

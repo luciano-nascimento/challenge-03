@@ -2,7 +2,7 @@
 
 namespace App\Services\Notification;
 
-class EmailNotificationStrategy implements NotificationInterface
+class EmailNotification implements NotificationInterface
 {
 
     public function send(string $title)

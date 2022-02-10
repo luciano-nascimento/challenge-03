@@ -26,7 +26,7 @@ http://localhost:8000/api/jobs (get)
 http://localhost:8000/api/jobs (post)
 
 *post parameters
-{"title": "Programer","description": "Format windows"}
+{"title": "Programer","description": "Solve problems"}
 
 # Improvments
 

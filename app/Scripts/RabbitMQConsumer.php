@@ -3,10 +3,10 @@
 require_once dirname(dirname(__DIR__,1)) . '/vendor/autoload.php';
 
 use PhpAmqpLib\Exchange\AMQPExchangeType;
+use App\Services\Notification\SMSNotification;
 use PhpAmqpLib\Connection\AMQPStreamConnection;
-use App\Services\Notification\NotificationStrategy;
-use App\Services\Notification\SMSNotificationStrategy;
-use App\Services\Notification\EmailNotificationStrategy;
+use App\Services\Notification\EmailNotification;
+use Illuminate\Support\Facades\Log;
 
 //env settings should not be here
 define('HOST', 'challenge-rabbitmq');
@@ -49,13 +49,19 @@ $channel->queue_bind($queue, $exchange);
 function process_message($message)
 {
     echo "\nMessage Received: " . $message->body . "\n";
+    echo "Receiving notification message in broker. Tile: " . $message->body. "\n";
+    //maybe its better have 2 diff queues to make retries easier
+    try{
+        $emailNotification = new EmailNotification();
+        $emailNotification->send($message->body);
 
-    //strategy used to make changes easier in the future
-    $emailNotification = new NotificationStrategy(new EmailNotificationStrategy);
-    $emailNotification->send($message->body);
+        $smsNotification = new SMSNotification();
+        $smsNotification->send($message->body);
+    } catch (Exception $e) {
+        echo $e->getMessage();
+    }
 
-    $smsNotification = new NotificationStrategy(new SMSNotificationStrategy);
-    $smsNotification->send($message->body);
+   
 
 
     $message->ack();
