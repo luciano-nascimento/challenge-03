@@ -21,6 +21,12 @@ docker-compose exec app php artisan test
 # Consume API
 set Accept as application/json
 
+-endpoints (should be in swagger)
+http://localhost:8000/api/jobs (get)
+http://localhost:8000/api/jobs (post)
+
+*post parameters
+{"title": "Programer","description": "Format windows"}
 
 # Improvments
 
