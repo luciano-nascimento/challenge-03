@@ -1,0 +1,140 @@
+2022-02-10 01:10:38,638 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-02-10 01:10:38,640 INFO supervisord started with pid 63
+2022-02-10 01:10:39,644 INFO spawned: 'rabbit-mq-consumer_00' with pid 64
+2022-02-10 01:10:40,647 INFO success: rabbit-mq-consumer_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-02-10 01:10:48,656 WARN received SIGINT indicating exit request
+2022-02-10 01:10:48,657 INFO waiting for rabbit-mq-consumer_00 to die
+2022-02-10 01:10:48,658 INFO stopped: rabbit-mq-consumer_00 (terminated by SIGTERM)
+2022-02-10 01:11:56,264 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-02-10 01:11:56,266 INFO supervisord started with pid 68
+2022-02-10 01:11:57,271 INFO spawned: 'rabbit-mq-consumer_00' with pid 69
+2022-02-10 01:11:58,273 INFO success: rabbit-mq-consumer_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-02-10 01:12:07,285 WARN received SIGINT indicating exit request
+2022-02-10 01:12:07,286 INFO waiting for rabbit-mq-consumer_00 to die
+2022-02-10 01:12:07,290 INFO stopped: rabbit-mq-consumer_00 (terminated by SIGTERM)
+2022-02-10 01:12:15,986 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-02-10 01:12:15,988 INFO supervisord started with pid 70
+2022-02-10 01:12:16,992 INFO spawned: 'rabbit-mq-consumer_00' with pid 71
+2022-02-10 01:12:17,993 INFO success: rabbit-mq-consumer_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-02-10 01:12:44,022 WARN received SIGINT indicating exit request
+2022-02-10 01:12:44,022 INFO waiting for rabbit-mq-consumer_00 to die
+2022-02-10 01:12:44,024 INFO stopped: rabbit-mq-consumer_00 (terminated by SIGTERM)
+2022-02-10 01:15:19,339 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-02-10 01:15:19,341 INFO supervisord started with pid 82
+2022-02-10 01:15:20,346 INFO spawned: 'rabbit-mq-consumer_00' with pid 83
+2022-02-10 01:15:21,349 INFO success: rabbit-mq-consumer_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-02-10 01:15:42,375 WARN received SIGINT indicating exit request
+2022-02-10 01:15:42,376 INFO waiting for rabbit-mq-consumer_00 to die
+2022-02-10 01:15:42,381 INFO stopped: rabbit-mq-consumer_00 (terminated by SIGTERM)
+2022-02-10 01:22:32,422 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-02-10 01:22:32,424 INFO supervisord started with pid 62
+2022-02-10 01:22:33,429 INFO spawned: 'rabbit-mq-consumer_00' with pid 63
+2022-02-10 01:22:34,431 INFO success: rabbit-mq-consumer_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-02-10 01:45:19,207 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-02-10 01:45:19,210 INFO supervisord started with pid 52
+2022-02-10 01:45:20,214 INFO spawned: 'phpfpm_00' with pid 56
+2022-02-10 01:45:20,217 INFO spawned: 'rabbit-mq-consumer_00' with pid 57
+2022-02-10 01:45:20,242 INFO exited: phpfpm_00 (exit status 78; not expected)
+2022-02-10 01:45:21,245 INFO spawned: 'phpfpm_00' with pid 58
+2022-02-10 01:45:21,245 INFO success: rabbit-mq-consumer_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-02-10 01:45:21,270 INFO exited: phpfpm_00 (exit status 78; not expected)
+2022-02-10 01:45:23,276 INFO spawned: 'phpfpm_00' with pid 59
+2022-02-10 01:45:23,301 INFO exited: phpfpm_00 (exit status 78; not expected)
+2022-02-10 01:45:26,306 INFO spawned: 'phpfpm_00' with pid 60
+2022-02-10 01:45:26,355 INFO exited: phpfpm_00 (exit status 78; not expected)
+2022-02-10 01:45:27,356 INFO gave up: phpfpm_00 entered FATAL state, too many start retries too quickly
+2022-02-10 01:50:04,359 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-02-10 01:50:04,362 INFO supervisord started with pid 53
+2022-02-10 01:50:05,366 INFO spawned: 'phpfpm_00' with pid 57
+2022-02-10 01:50:05,369 INFO spawned: 'rabbit-mq-consumer_00' with pid 58
+2022-02-10 01:50:05,396 INFO exited: phpfpm_00 (exit status 78; not expected)
+2022-02-10 01:50:06,398 INFO spawned: 'phpfpm_00' with pid 59
+2022-02-10 01:50:06,398 INFO success: rabbit-mq-consumer_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-02-10 01:50:06,422 INFO exited: phpfpm_00 (exit status 78; not expected)
+2022-02-10 01:50:08,428 INFO spawned: 'phpfpm_00' with pid 60
+2022-02-10 01:50:08,454 INFO exited: phpfpm_00 (exit status 78; not expected)
+2022-02-10 01:50:11,462 INFO spawned: 'phpfpm_00' with pid 61
+2022-02-10 01:50:11,487 INFO exited: phpfpm_00 (exit status 78; not expected)
+2022-02-10 01:50:12,488 INFO gave up: phpfpm_00 entered FATAL state, too many start retries too quickly
+2022-02-10 01:51:28,400 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-02-10 01:51:28,401 INFO supervisord started with pid 54
+2022-02-10 01:51:29,406 INFO spawned: 'phpfpm_00' with pid 58
+2022-02-10 01:51:29,410 INFO spawned: 'rabbit-mq-consumer_00' with pid 59
+2022-02-10 01:51:29,431 INFO exited: phpfpm_00 (exit status 78; not expected)
+2022-02-10 01:51:30,436 INFO spawned: 'phpfpm_00' with pid 60
+2022-02-10 01:51:30,438 INFO success: rabbit-mq-consumer_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-02-10 01:51:30,466 INFO exited: phpfpm_00 (exit status 78; not expected)
+2022-02-10 01:51:32,471 INFO spawned: 'phpfpm_00' with pid 61
+2022-02-10 01:51:32,500 INFO exited: phpfpm_00 (exit status 78; not expected)
+2022-02-10 01:51:35,507 INFO spawned: 'phpfpm_00' with pid 62
+2022-02-10 01:51:35,558 INFO exited: phpfpm_00 (exit status 78; not expected)
+2022-02-10 01:51:36,560 INFO gave up: phpfpm_00 entered FATAL state, too many start retries too quickly
+2022-02-10 01:52:24,954 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-02-10 01:52:24,957 INFO supervisord started with pid 54
+2022-02-10 01:52:25,961 INFO spawned: 'phpfpm_00' with pid 58
+2022-02-10 01:52:25,966 INFO spawned: 'rabbit-mq-consumer_00' with pid 59
+2022-02-10 01:52:26,011 INFO exited: phpfpm_00 (exit status 78; not expected)
+2022-02-10 01:52:27,013 INFO spawned: 'phpfpm_00' with pid 60
+2022-02-10 01:52:27,013 INFO success: rabbit-mq-consumer_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-02-10 01:52:27,031 INFO exited: phpfpm_00 (exit status 78; not expected)
+2022-02-10 01:52:29,035 INFO spawned: 'phpfpm_00' with pid 61
+2022-02-10 01:52:29,056 INFO exited: phpfpm_00 (exit status 78; not expected)
+2022-02-10 01:52:32,061 INFO spawned: 'phpfpm_00' with pid 62
+2022-02-10 01:52:32,083 INFO exited: phpfpm_00 (exit status 78; not expected)
+2022-02-10 01:52:33,084 INFO gave up: phpfpm_00 entered FATAL state, too many start retries too quickly
+2022-02-10 01:53:32,188 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-02-10 01:53:32,191 INFO supervisord started with pid 53
+2022-02-10 01:53:33,196 INFO spawned: 'phpfpm_00' with pid 57
+2022-02-10 01:53:33,202 INFO spawned: 'rabbit-mq-consumer_00' with pid 58
+2022-02-10 01:53:33,242 INFO exited: phpfpm_00 (exit status 78; not expected)
+2022-02-10 01:53:34,247 INFO spawned: 'phpfpm_00' with pid 59
+2022-02-10 01:53:34,247 INFO success: rabbit-mq-consumer_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-02-10 01:53:34,270 INFO exited: phpfpm_00 (exit status 78; not expected)
+2022-02-10 01:53:36,275 INFO spawned: 'phpfpm_00' with pid 60
+2022-02-10 01:53:36,302 INFO exited: phpfpm_00 (exit status 78; not expected)
+2022-02-10 01:53:39,309 INFO spawned: 'phpfpm_00' with pid 61
+2022-02-10 01:53:39,337 INFO exited: phpfpm_00 (exit status 78; not expected)
+2022-02-10 01:53:40,339 INFO gave up: phpfpm_00 entered FATAL state, too many start retries too quickly
+2022-02-10 02:03:23,609 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-02-10 02:03:23,612 INFO supervisord started with pid 53
+2022-02-10 02:03:24,617 INFO spawned: 'rabbit-mq-consumer_00' with pid 57
+2022-02-10 02:03:25,693 INFO success: rabbit-mq-consumer_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-02-10 02:04:59,066 WARN received SIGTERM indicating exit request
+2022-02-10 02:04:59,067 INFO waiting for rabbit-mq-consumer_00 to die
+2022-02-10 02:04:59,071 INFO stopped: rabbit-mq-consumer_00 (terminated by SIGTERM)
+2022-02-10 02:24:09,962 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-02-10 02:24:09,964 INFO supervisord started with pid 52
+2022-02-10 02:24:10,968 INFO spawned: 'rabbit-mq-consumer_00' with pid 56
+2022-02-10 02:24:11,971 INFO success: rabbit-mq-consumer_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-02-10 02:41:53,894 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-02-10 02:41:53,896 INFO supervisord started with pid 53
+2022-02-10 02:41:54,901 INFO spawned: 'rabbit-mq-consumer_00' with pid 57
+2022-02-10 02:41:55,903 INFO success: rabbit-mq-consumer_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-02-10 02:48:03,334 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-02-10 02:48:03,337 INFO supervisord started with pid 53
+2022-02-10 02:48:04,340 INFO spawned: 'rabbit-mq-consumer_00' with pid 63
+2022-02-10 02:48:05,343 INFO success: rabbit-mq-consumer_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-02-10 03:48:09,290 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-02-10 03:48:09,292 INFO supervisord started with pid 53
+2022-02-10 03:48:10,294 INFO spawned: 'rabbit-mq-consumer_00' with pid 57
+2022-02-10 03:48:11,296 INFO success: rabbit-mq-consumer_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-02-10 04:27:28,435 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-02-10 04:27:28,438 INFO supervisord started with pid 307
+2022-02-10 04:27:29,440 INFO spawned: 'rabbit-mq-consumer_00' with pid 311
+2022-02-10 04:27:30,441 INFO success: rabbit-mq-consumer_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-02-10 04:29:09,326 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-02-10 04:29:09,330 INFO supervisord started with pid 295
+2022-02-10 04:29:10,332 INFO spawned: 'rabbit-mq-consumer_00' with pid 299
+2022-02-10 04:29:11,333 INFO success: rabbit-mq-consumer_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-02-10 04:30:08,427 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-02-10 04:30:08,429 INFO supervisord started with pid 54
+2022-02-10 04:30:09,434 INFO spawned: 'rabbit-mq-consumer_00' with pid 58
+2022-02-10 04:30:10,437 INFO success: rabbit-mq-consumer_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-02-10 04:30:34,488 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-02-10 04:30:34,490 INFO supervisord started with pid 299
+2022-02-10 04:30:35,492 INFO spawned: 'rabbit-mq-consumer_00' with pid 303
+2022-02-10 04:30:36,494 INFO success: rabbit-mq-consumer_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-02-10 04:33:05,444 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-02-10 04:33:05,446 INFO supervisord started with pid 53
+2022-02-10 04:33:06,451 INFO spawned: 'rabbit-mq-consumer_00' with pid 57
+2022-02-10 04:33:07,453 INFO success: rabbit-mq-consumer_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
