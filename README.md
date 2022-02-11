@@ -5,6 +5,8 @@ Challenge proposed by Jumia
 
 # Installation (via docker)
 
+*tested on docker version (Docker version 20.10.5, build 55c4c88)
+
 - first of all build and start container   
 ```sh
 $ docker-compose up -d
@@ -35,3 +37,4 @@ http://localhost:8000/api/jobs (post)
 * add api documentation like swagger for example
 * force return response as json
 * would be good have producer and consumer in differents ms
+* real integration to send sms and email 
